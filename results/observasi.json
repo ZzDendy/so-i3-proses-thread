@@ -1,0 +1,171 @@
+{
+  "pid": 183141,
+  "cuplikan": [
+    {
+      "t": 0.001,
+      "state": "S (sleeping)",
+      "threads": 5,
+      "vctx": 1405,
+      "nctx": 17,
+      "rss_kb": 12968,
+      "task": 5
+    },
+    {
+      "t": 0.402,
+      "state": "S (sleeping)",
+      "threads": 5,
+      "vctx": 1456,
+      "nctx": 18,
+      "rss_kb": 12968,
+      "task": 5
+    },
+    {
+      "t": 0.803,
+      "state": "S (sleeping)",
+      "threads": 5,
+      "vctx": 1513,
+      "nctx": 18,
+      "rss_kb": 12968,
+      "task": 5
+    },
+    {
+      "t": 1.204,
+      "state": "S (sleeping)",
+      "threads": 5,
+      "vctx": 1570,
+      "nctx": 18,
+      "rss_kb": 12968,
+      "task": 5
+    },
+    {
+      "t": 1.606,
+      "state": "S (sleeping)",
+      "threads": 5,
+      "vctx": 1624,
+      "nctx": 19,
+      "rss_kb": 12968,
+      "task": 5
+    },
+    {
+      "t": 2.007,
+      "state": "S (sleeping)",
+      "threads": 5,
+      "vctx": 1676,
+      "nctx": 19,
+      "rss_kb": 12968,
+      "task": 5
+    },
+    {
+      "t": 2.408,
+      "state": "S (sleeping)",
+      "threads": 5,
+      "vctx": 1728,
+      "nctx": 19,
+      "rss_kb": 12968,
+      "task": 5
+    },
+    {
+      "t": 2.81,
+      "state": "S (sleeping)",
+      "threads": 5,
+      "vctx": 1783,
+      "nctx": 19,
+      "rss_kb": 12968,
+      "task": 5
+    },
+    {
+      "t": 3.211,
+      "state": "S (sleeping)",
+      "threads": 5,
+      "vctx": 1833,
+      "nctx": 19,
+      "rss_kb": 12968,
+      "task": 5
+    },
+    {
+      "t": 3.613,
+      "state": "S (sleeping)",
+      "threads": 5,
+      "vctx": 1895,
+      "nctx": 22,
+      "rss_kb": 12968,
+      "task": 5
+    }
+  ],
+  "pohon": {
+    "pid": 183141,
+    "ppid": "183034",
+    "induk_comm": "bash",
+    "induk_cmd": "bash --noprofile --rcfile /home/dendy/.bashrc -i",
+    "logger_comm": "python3",
+    "logger_cmd": "python3 logger_thread.py --jumlah 1500 --jeda 0.05 --log results/logger.log",
+    "thread": [
+      "183141",
+      "183152",
+      "183153",
+      "183154",
+      "183155"
+    ],
+    "thread_status": [
+      {
+        "tid": "183141",
+        "nama": "python3",
+        "state": "S (sleeping)",
+        "vctx": 7,
+        "nctx": 4,
+        "rss_kb": 12968
+      },
+      {
+        "tid": "183152",
+        "nama": "python3",
+        "state": "S (sleeping)",
+        "vctx": 784,
+        "nctx": 13,
+        "rss_kb": 12968
+      },
+      {
+        "tid": "183153",
+        "nama": "python3",
+        "state": "S (sleeping)",
+        "vctx": 370,
+        "nctx": 3,
+        "rss_kb": 12968
+      },
+      {
+        "tid": "183154",
+        "nama": "python3",
+        "state": "S (sleeping)",
+        "vctx": 367,
+        "nctx": 1,
+        "rss_kb": 12968
+      },
+      {
+        "tid": "183155",
+        "nama": "python3",
+        "state": "S (sleeping)",
+        "vctx": 367,
+        "nctx": 1,
+        "rss_kb": 12968
+      }
+    ],
+    "anak": []
+  },
+  "state_histogram": {
+    "S": 10
+  },
+  "ringkasan": {
+    "jumlah_cuplikan": 10,
+    "thread_maks": 5,
+    "vctx_awal": 1405,
+    "vctx_akhir": 1895,
+    "nctx_awal": 17,
+    "nctx_akhir": 22,
+    "rss_rata": 12968,
+    "pid_induk": "183034",
+    "cmd_induk": "bash",
+    "cmd_logger": "python3 logger_thread.py --jumlah 1500 --jeda 0.05 --log results/logger.log",
+    "jumlah_thread_task": 5,
+    "durasi_cuplikan": 3.613
+  },
+  "keluaran_program": []
+}
